@@ -1,0 +1,70 @@
+ <sal> I hear drip drops of water into a giant cavern
+ <SDH> setting, gameplay, story, characters, ALL THE SAME
+
+
+
+Die Tropfsteinhöhle
+
+
+DESCRIPTION:
+There are several stalactites in the cavern, and each builds up water.  On the cavern floor are frogs, and you must keep them moist in order for them to survive.
+
+Window size: ??? x ???
+Distance water has to fall: ?
+|_________________________________|
+|                                 |
+|                                 |
+|    [] V Q          [] V E       |
+|                                 |
+|             [] V S              |
+|                                 |
+|                                 |
+|   [] V A              [] V D    |
+|                                 |
+|                                 |
+|_________________________________|
+
+
+Each stalactite, V,  is given a letter and a semi-transparent bar that indicated how much water is built up on the tip.
+
+On the ground are a number of frogs moving randomly of three different colors: bright green, pale green, and brown
+The color is indicative of how moist the frog's skin is.  If it goes beyond brown, the frog dies leaving a dead frog mark spot on the ground.  When the frogs meet each other, one of them will become pregnant and eventually give birth to a sickly looking grey frog that does not require water to live.
+
+
+OBJECTIVE:
+Keep the frogs moist until frogs of the opposite sex have a chance to mate and produce 2 non-water-needing babies. (don't ask me how this works.)
+
+
+
+CONDITIONS FOR WIN:
+The frogs produce 2 or more non-water-needing babies
+
+
+CONDITIONS FOR LOSS:
+All the frogs of one sex die (maybe for easy mode--make sex of frogs irrelevant)
+	-except when two or more pregnant frogs live
+
+Not enough frogs remain to produce desired outcome.
+	-lone non-pregnant frog
+	-lone pregnant frog but no babies in the field	
+
+
+
+FROG ASPECTS:
+Frogs move in any of the 8 directions 1 square at a time and have a 3/4 chance of moving the direction previously moved.
+
+Bright green: 67-100 - frog's water level cannot go past 100
+Pale green: 34-66
+Brown: 1-33
+Dead: 0 - not affected by water
+Light grey: special - not affected by water
+
+
+STALACTITE ASPECTS:
+Pressing the letter drops the water to the ground.  
+
+If the stalactite becomes over-laden with water, it will fall. The bar will blink 3 times before the water drops on its own.
+
+The water can not be released until it is 3/4 laden.
+
+Splash effects to water when fully laden?  Perhaps neighboring squares receive 1/? the value of the water, and the landing zone receives less (due to splash effect)
